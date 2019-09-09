@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIX-IT</title>
+
+</head>
+
+<nav class="navigate">
+<ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="About us.html">About us</a></li>
+  <li><a href="#home">Sign Up</a></li>
+  <li><a href="#news">Bookings</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">Terms and conditions</a></li>
+</ul>
+</nav>
+
+
+
+<span class="header">
+	<img class="logo" src="logo1.png" width="200" height="250">
+        <span class="char1">F</span>
+        <span class="char2">I</span>
+        <span class="char2">X</span>
+        <span class="char3">-</span>
+        <span class="char4">I</span>
+        <span class="char4">T</span>
+        <h1>I can fix it! </h1>
+    </span>
+</div>
+
+
+
+<body>
+<div class="row">
+  <div class="column side">
+    <h2>who do you need?</h2>
+    <input type="text" name="search" placeholder="Search..">
+   
+    <ul>
+  <li><a href="About us.html" class="active">Plumbers</a></li>
+  <li><a href="About us.html">Electician</a></li>
+  <li><a href="About us.html">Gardener</a></li>
+  <li><a href="About us.html">HVAC Technician</a></li>
+  <li><a href="About us.html">Welder</a></li>
+  <li><a href="About us.html"></a></li>
+</ul>
+  </div>
+  
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p></p>
+  </div>
+  
+  <div class="column side">
+    <h2>Side</h2>
+    <p></p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+<style type="text/css">
+
+	{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+
+.header {
+  overflow: auto;
+  background-color: grey;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  clear: left;
+  margin: 0px;
+  text-shadow: 6px 6px #09BDE9;
+}
+   
+
+
+  h1 {
+  text-shadow: 2px 2px 2px #A47306 ;
+}
+
+.header > span:nth-child(3) {
+    -webkit;-transform:translateX(-1px) translateY(68px) rotate(-17deg);
+    -webkit-transition:0s;
+}
+
+span {
+    display: inline-block;
+    font-family: futura-pt, 'Helvetica Neue', sans-serif;
+    font-size: 2.0em;
+    font-weight: 200;
+    margin: 1px;
+}
+
+
+
+.logo {
+  float: left;
+}
+/* Style the top navigation bar */
+.navigate ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: grey;
+  float: right;
+  width: 200px;
+  height: 270px;
+
+   
+}
+
+li {
+  float: right;
+    content: "";
+  clear: both;
+  display: table;
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: #33b5e5;
+  color: #ffffff;
+   overflow: auto;
+  
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  float: right;
+  width: 100px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #A47306 ;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 1px 1px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: transparent;
+  float: right;
+  width: 200px;
+  height: 270px;
+}
+
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+  @keyframes animate{
+    0%,100%{
+        background-image: url(girl7.jpg);
+        background-size: cover;
+        height: 80vh;
+        background-attachment: fixed;
+    }
+
+ 40%{
+        background-image: url(male6.jpg);
+        background-size: cover;
+        height: 80vh;
+        background-attachment: fixed;
+         }
+    60%{
+        background-image: url(child7.png);
+        background-size: cover;
+        height: 80vh;
+        background-attachment: fixed;
+
+}
+
+
+</style>
